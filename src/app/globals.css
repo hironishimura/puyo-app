@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
+/* ===== カラーテーマ定義 ===== */
 :root {
-  --background: #07071a;
-  --foreground: #f0f0ff;
+  --background: #ffffff;       /* 背景色: 白 */
+  --foreground: #111827;       /* 文字色: 濃いグレー（白背景で読みやすい） */
 }
 
 @theme inline {
@@ -12,6 +13,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* ===== 全要素の基本スタイル ===== */
 * {
   box-sizing: border-box;
 }
